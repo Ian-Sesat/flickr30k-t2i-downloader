@@ -10,7 +10,6 @@ Flickr30k contains 31,783 images each annotated with 5 human-written captions, g
 
 ```bash
 pip install datasets
-python download_flickr30k.py
 ```
 
 ## Output
