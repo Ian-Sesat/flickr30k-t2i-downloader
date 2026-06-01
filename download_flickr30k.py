@@ -12,11 +12,11 @@ import json
 from datasets import load_dataset
 from tqdm import tqdm
 
-SAVE_DIR     = '/media/isesat/e8188905-1ffc-4de1-83b6-ac2addc2a941/flickr30k'
+SAVE_DIR     = '/your/path/coco'
 IMAGES_DIR   = os.path.join(SAVE_DIR, 'images')
 CAPTION_FILE = os.path.join(SAVE_DIR, 'captions.json')
 
-os.environ['HF_HOME'] = '/media/isesat/e8188905-1ffc-4de1-83b6-ac2addc2a941/hf_cache'
+os.environ['HF_HOME'] = '/your/path/coco/hf_cache'
 os.makedirs(IMAGES_DIR, exist_ok=True)
 
 print("Downloading Flickr30k from HuggingFace...")
