@@ -1,4 +1,4 @@
-# flickr30k-t2i-downloader
+# flickr30k-dataset-downloader
 
 Downloads the Flickr30k dataset from HuggingFace for Text-to-Image retrieval evaluation. Saves all images to disk and exports a clean JSON file containing image filenames and captions ready for embedding extraction.
 
